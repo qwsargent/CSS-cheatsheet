@@ -7,6 +7,20 @@ body {
     padding: 1 vh 1vw;
 }
 
+header, main, footer {
+    border: dotted blue 0.5px;
+}
+
+.container {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+
+
 H1 {
     color: rgb(126, 235, 235);
     display: block;
@@ -19,9 +33,13 @@ li {
     text-decoration: none;
     
 }
-body {
-    
+figure, figcaption, pre {
+
+
 }
+
+
+
 
 
 
