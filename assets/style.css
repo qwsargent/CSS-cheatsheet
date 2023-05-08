@@ -1,0 +1,27 @@
+* {
+    background-color: rgb(31, 75, 137);
+    font-family: sans-serif;
+}
+
+body {
+    padding: 1 vh 1vw;
+}
+
+H1 {
+    color: rgb(126, 235, 235);
+    display: block;
+
+}
+
+li {
+    border-style: dashed;
+    margin: 5%;
+    text-decoration: none;
+    
+}
+body {
+    
+}
+
+
+
