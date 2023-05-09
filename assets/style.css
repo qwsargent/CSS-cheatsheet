@@ -34,9 +34,36 @@ H1 {
 
 .card {
     flex: 0 0 100%;
+    padding: 1lh;
 
 }
 
+figure {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+figcaption {
+    position: absolute;
+    top: -1lh;
+    min-width: 75%;
+    margin-left: 10%;
+    margin-right: 10%;    
+
+}
+
+figure > * {
+    padding: 0.5lh;
+    
+}
+
+figure > p {
+    padding-top:1.5lh;
+}
 
 figure, figcaption, pre { 
     border-style: dashed;
