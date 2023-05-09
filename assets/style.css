@@ -34,7 +34,7 @@ H1 {
 
 .card {
     flex: 0 0 100%;
-    padding: 1lh;
+    padding: 2lh 1vw;
 
 }
 
@@ -44,6 +44,7 @@ figure {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    border: dashed black 2px;
 
 }
 
@@ -52,7 +53,10 @@ figcaption {
     top: -1lh;
     min-width: 75%;
     margin-left: 10%;
-    margin-right: 10%;    
+    margin-right: 10%; 
+    background: white; 
+    border: black 1px;
+    border-radius: 8px;  
 
 }
 
@@ -65,10 +69,16 @@ figure > p {
     padding-top:1.5lh;
 }
 
-figure, figcaption, pre { 
-    border-style: dashed;
-
+pre {
+    padding: 1lh;
+    font-family: monospace;
+    font-size: 110%;
+    border-radius: 8px;
+    background: green;
+    margin: 1vw;
 }
+
+
 
 @media screen and (min-width: 768px) {
     .card {
